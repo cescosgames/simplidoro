@@ -20,7 +20,8 @@ const Navbar = () => {
         {/* left side */}
         <span className='flex gap-2 p-1 items-center'>
             {/* logo */}
-            <span className='border-2 border-veg-carrot rounded-full h-3 aspect-square bg-veg-tomato transition-all hover:h-4'></span>
+            <img src="../images/simplidoroSl.png" alt="Simplidoro Logo" className='h-4 transition-all hover:h-5'/>
+            {/* <span className='border-2 border-veg-carrot rounded-full h-3 aspect-square bg-veg-tomato transition-all hover:h-4'></span> */}
             {/* title */}
             <a href="#" className='transition hover:opacity-50' aria-label='link to Simplidoro homepage'>Simplidoro</a>
         </span>
