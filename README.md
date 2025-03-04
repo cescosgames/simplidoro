@@ -4,7 +4,7 @@ Welcome to Simplidoro! A no frills pomodoro technique timer with automatic sessi
 [project from roadmap.sh](https://roadmap.sh/projects/pomodoro-timer). A simple, accessible, and productive little timer app!
 <br>
 <br>
-Live Demo: coming soon!
+Live Demo: https://simplidoro.pages.dev/
 
 ## How it was made:
 
