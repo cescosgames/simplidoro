@@ -29,7 +29,7 @@ const Navbar = () => {
         {/* right side */}
         <span className='flex gap-2 p-1 items-center'>
             {/* the github link */}
-            <a href="#" className='transition opacity-50 hover:opacity-100' aria-label='link to Simplidoro github repo'>View On Github</a>
+            <a href="https://github.com/cescosgames/simplidoro" className='transition opacity-50 hover:opacity-100' target='_blank' aria-label='link to Simplidoro github repo'>View On Github</a>
             {/* the settings button to pull up the modal */}
             <button className='cursor-pointer transition opacity-50 hover:opacity-100'
             aria-label='settings tab'
