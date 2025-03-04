@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  /* vegetable rainbow lol */
+  --color-veg-tomato: #ef4026;
+  --color-veg-carrot: #fd6f3b;
+  --color-veg-tan: #f2ab15;
+  --color-veg-grass: #46a35a;
+  --color-veg-blue: #174871;
+  --color-offwhite: #fff8e1;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: 'Patrick Hand', sans-serif;
+  background-color: var(--color-offwhite);
+}
+
+
+
+
+/* some utility classes */
+.selected {
+  opacity: 100;
+  border: 2px solid var(--color-offwhite);
+  background: var(--color-veg-blue);
+  color: var(--color-offwhite);
+}
+/* I was initially going to make these unique, so I might come back and do that, but for now they are the same */
+.buttonDown {
+  opacity: 100;
+  border: 2px solid var(--color-offwhite);
+  background: var(--color-veg-blue);
+  color: var(--color-offwhite);
+}
+/* bg opacity for our modal */
+.bgOpacity {
+  background-color: rgba(0,0,0,0.75);
+}
+
+
+/* animation for visual feedback on timer ending */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation {
+  animation: pulse 1s forwards;
+}
