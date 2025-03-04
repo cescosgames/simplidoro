@@ -1,7 +1,7 @@
 # Simplidoro (no frills pomodoro timer)
 
-This is my minimalist reddit client called Newitt based on the mockup and [project from roadmap.sh](https://roadmap.sh/projects/reddit-client). This browser-based reddit client loads the newest content from
-a predefined group of subreddits or individually selected subreddits into individual, responsive and dynamic lanes. 
+Welcome to Simplidoro! A no frills pomodoro technique timer with automatic session tracking and customizable timers. This is based on the 
+[project from roadmap.sh](https://roadmap.sh/projects/pomodoro-timer). A simple, accessible, and productive little timer app!
 <br>
 <br>
 Live Demo: coming soon!
