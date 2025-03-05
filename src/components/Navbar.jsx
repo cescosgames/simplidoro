@@ -16,7 +16,7 @@ const Navbar = () => {
     <Modal toggleModal={toggleModal} isOpen={isModalOpen}/>
     
     {/* our navbar */}
-    <div className='md:w-xl w-sm border-b-1 border-veg-carrot m-auto flex justify-between items-center text-veg-carrot text-lg'>
+    <div className='md:w-xl w-xs border-b-1 border-veg-carrot m-auto flex justify-between items-center text-veg-carrot text-lg'>
         {/* left side */}
         <span className='flex gap-2 p-1 items-center'>
             {/* logo */}

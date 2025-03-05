@@ -138,7 +138,7 @@ const Modal = ({ isOpen, toggleModal }) => {
 
   return (
     <div className="fixed inset-0 flex items-center bgOpacity justify-center w-[100vw] h-[100vh] z-10" ref={modalRef}>
-        <div className="bg-veg-grass p-6 rounded-lg shadow-lg max-w-sm w-sm relative border-2 border-offwhite text-offwhite">
+        <div className="bg-veg-grass p-6 rounded-lg shadow-lg md:max-w-sm md:w-sm w-xs max-w-xs relative border-2 border-offwhite text-offwhite">
 
             {/* the close button */}
             <button onClick={()=>toggleModal()} className="absolute text-2xl top-2 right-2 hover:text-veg-carrot cursor-pointer transition hover:scale-130">
